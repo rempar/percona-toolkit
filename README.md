@@ -4,11 +4,13 @@ This is docker image of Percona Toolkit 3.0.3 for Debian with MySQL Server 5.7.
 
 When used in Kubernetes please use variables:
 
-MYSQL_USER
+•	MYSQL_USER
 
-MYSQL_PASSWORD
+•	MYSQL_PASSWORD
 
-MYSQL_ROOT_PASSWORD
+•	MYSQL_ROOT_PASSWORD
+
+
 
 Docker Hub:
 https://hub.docker.com/r/remigiuszparchem/percona-toolkit-full
@@ -18,37 +20,68 @@ Percona Toolkit for MySQL® is a collection of advanced open source command-line
 https://www.percona.com/software/mysql-tools/percona-toolkit
 This image allows you to run all the tools included in percona-toolkit from inside a Docker container.
 
-Included tools:
+Included tools
 
-pt-align
-pt-archiver
-pt-config-diff
-pt-deadlock-logger
-pt-diskstats
-pt-duplicate-key-checker
-pt-fifo-split
-pt-find
-pt-fingerprint
-pt-fk-error-logger
-pt-heartbeat
-pt-index-usage
-pt-ioprofile
-pt-kill
-pt-mext
-pt-mysql-summary
-pt-online-schema-change
-pt-pmp
-pt-query-digest
-pt-show-grants
-pt-sift
-pt-slave-delay
-pt-slave-find
-pt-slave-restart
-pt-stalk
-pt-summary
-pt-table-checksum
-pt-table-sync
-pt-table-usage
-pt-upgrade
-pt-variable-advisor
-pt-visual-explain
+•	pt-align
+
+•	pt-archiver
+
+•	pt-config-diff
+
+•	pt-deadlock-logger
+
+•	pt-diskstats
+
+•	pt-duplicate-key-checker
+
+•	pt-fifo-split
+
+•	pt-find
+
+•	pt-fingerprint
+
+•	pt-fk-error-logger
+
+•	pt-heartbeat
+
+•	pt-index-usage
+
+•	pt-ioprofile
+
+•	pt-kill
+
+•	pt-mext
+
+•	pt-mysql-summary
+
+•	pt-online-schema-change
+
+•	pt-pmp
+
+•	pt-query-digest
+
+•	pt-show-grants
+
+•	pt-sift
+
+•	pt-slave-delay
+
+•	pt-slave-find
+
+•	pt-slave-restart
+
+•	pt-stalk
+
+•	pt-summary
+
+•	pt-table-checksum
+
+•	pt-table-sync
+
+•	pt-table-usage
+
+•	pt-upgrade
+
+•	pt-variable-advisor
+
+•	pt-visual-explain
