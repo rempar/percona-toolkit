@@ -7,3 +7,6 @@ When used in Kubernetes please use variables:
 MYSQL_USER
 MYSQL_PASSWORD
 MYSQL_ROOT_PASSWORD
+
+Docker Hub:
+https://hub.docker.com/r/remigiuszparchem/percona-toolkit-full
