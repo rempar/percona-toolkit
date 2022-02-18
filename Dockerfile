@@ -1,7 +1,7 @@
 FROM mysql:5.7
 USER root
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get upgrade -y && apt-get install -y \
       libdbd-mysql-perl \
       libdbi-perl \
       libio-socket-ssl-perl \
