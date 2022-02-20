@@ -1,6 +1,6 @@
 # percona-toolkit
 
-This is docker image of Percona Toolkit 3.0.3 for Debian with MySQL Server 5.7.
+This is docker image of Percona Toolkit 3.3.1 for Debian with MySQL Server 5.7.
 
 When used in Kubernetes please use variables:
 
